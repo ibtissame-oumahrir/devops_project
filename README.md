@@ -8,4 +8,8 @@
 Run the playbook to install docker
 <img width="578" alt="image" src="https://github.com/ibtissame-oumahrir/devops_project/assets/85846353/23dff054-52ec-4d65-9982-e7b305c3de3a">
 
+Run the playbook to build a docker image
+<img width="728" alt="image" src="https://github.com/ibtissame-oumahrir/devops_project/assets/85846353/018aaac7-e472-4d61-a3cb-91f17df28efd">
+
+
 
