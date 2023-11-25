@@ -6,5 +6,5 @@
     - name: Build Docker Image
       command: docker build -t ibtissame:latest .
       args:
-        chdir: /home/vagrant/Dockerfile
-        become: true
+        chdir: /vagrant/
+  
