@@ -7,7 +7,7 @@
       state: latest
       update_cache: yes 
       
-  - name: ensure docker is installed
+  - name: ensure docker-composeis installed
     apt:
       name: docker-compose
       state: latest
