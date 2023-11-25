@@ -1,0 +1,9 @@
+- name: Build Image Playbook
+  hosts: nodes
+  become: true  
+
+  tasks:
+    - name: Build Docker Image
+      command: docker build -t ibtissame:latest .
+      become: true  
+
