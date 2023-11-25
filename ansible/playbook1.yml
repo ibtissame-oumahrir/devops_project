@@ -17,3 +17,4 @@
     user:
       name: vagrant
       groups: docker
+      
