@@ -1,23 +1,16 @@
-# Use an official Ubuntu image as a parent image
-FROM ubuntu:latest
+# Dockerfile
+FROM ubuntu:18.04
 
-# Update the package list and install a few packages
-RUN apt-get update && apt-get install -y curl vim wget
+# Update package lists
+RUN apt-get update
 
-# Define the working directory
-WORKDIR /app
+# Install required packages
+RUN apt-get install -y \
+    curl \
+    git \
+    nano \
+    sudo \
+    wget
 
-# Copy the current directory contents into the container at /app
-COPY . /app
-
-# Install any needed packages specified in requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
-
-# Make port 80 available to the world outside this container
-EXPOSE 80
-
-# Define environment variable
-ENV NAME World
-
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+# Add a simple welcome message to the container
+CMD ["echo", "Welcome to your Docker container with Ubuntu Simplified!"]
