@@ -11,5 +11,10 @@ Run the playbook to install docker
 Run the playbook to build a docker image
 <img width="728" alt="image" src="https://github.com/ibtissame-oumahrir/devops_project/assets/85846353/018aaac7-e472-4d61-a3cb-91f17df28efd">
 
+<img width="473" alt="image" src="https://github.com/ibtissame-oumahrir/devops_project/assets/85846353/1192e9bc-96b2-4bc7-b2b4-0175c3414eea">
+
+
+
+<img width="578" alt="image" src="https://github.com/ibtissame-oumahrir/devops_project/assets/85846353/562477a8-dadf-4c5f-a4f9-79321b561417">
 
 
