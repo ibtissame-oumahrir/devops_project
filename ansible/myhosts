@@ -6,11 +6,9 @@ node1
 node2
 node3
 
+[manager]
+node1
 
-[webservers]
-web01
-web01
-
-[databasesservers]
-db01
-db02
+[worker]
+node2
+node2
